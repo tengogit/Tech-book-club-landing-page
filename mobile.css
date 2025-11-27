@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    user-select: none;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+
+}
+
+.cont {
+    width: 375px;
+    height: 5750px;
+    padding: 32px 16px 0px 16px;
+}
+
+.headline {
+    width: 193px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.headtxt {
+    font-family: "Fira Code", monospace;
+    font-size: 17px;
+    color: #062630;
+    font-weight: 600;
+
+
+}
+
+.tech {
+    width: 145px;
+    height: 30px;
+}
+
+header {
+    width: 343px;
+    height: 929px;
+    margin-top: 48px;
+}
+
+.headerbox1 {
+    width: 343px;
+    height: 480px;
+}
+
+h1 {
+    width: auto;
+    height: auto;
+    font-family: "Martian Mono", monospace;
+    font-size: 38px;
+    line-height: 120%;
+    font-weight: bold;
+    letter-spacing: -2px;
+    background: linear-gradient(to bottom,
+            rgb(254, 163, 111) 0%,
+            rgb(6, 38, 48) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.p1 {
+    width: 343px;
+    height: 140px;
+    color: #385159;
+    font-size: 21px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+button {
+    width: 343px;
+    height: 64px;
+    border-color: #062630;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF5EF;
+    margin-top: 32px;
+}
+
+.btntxt {
+    width: 257px;
+    height: 21px;
+    color: #062630;
+    font-family: "Martian Mono", monospace;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+
+.headerbox1footer {
+    width: 343px;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    gap: 12px;
+
+}
+
+.imgbox {
+    width: 110px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.boy3 {
+    border-radius: 50%;
+}
+
+.stars {
+    width: 221px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+}
+
+.starimg {
+    width: 140px;
+    height: 24px;
+}
+
+.developers {
+
+    width: 221px;
+    height: 214px;
+}
+
+.dev {
+    color: #385159;
+    font-family: "Martian Mono", monospace;
+    font-size: 14px;
+}
+
+.headerbox2 {
+
+    width: 343px;
+    height: 385px;
+    margin-top: 64px;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+main {
+
+    width: 343px;
+    height: 742px;
+    margin-top: 64px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    width: auto;
+    height: auto;
+    font-family: "Martian Mono", monospace;
+    font-size: 34px;
+    line-height: 120%;
+    font-weight: bold;
+    letter-spacing: -2px;
+    color: #062630;
+    margin-bottom: 24px;
+}
+
+.mainline {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.mainp {
+    width: auto;
+    height: auto;
+    color: #385159;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+}
+
+.mainbox2 {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+}
+
+article {
+
+    width: 343px;
+    height: 683px;
+    margin-top: 64px;
+
+}
+
+span {
+    border: 1px solid #FEA36F;
+    border-radius: 50%;
+    padding: 2px 6px;
+}
+
+.script {
+    border: none;
+
+}
+
+.articlebox1 {
+    width: 343px;
+    height: 324px;
+    margin-bottom: 40px;
+}
+
+.p2 {
+    font-weight: 600;
+}
+
+.react {
+    display: none;
+}
+
+section {
+    width: 340px;
+    height: 701px;
+    margin-top: 64px;
+    padding: 64px 16px 64px 16px;
+}
+
+.sectionbox {
+    width: 308px;
+    height: 409px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sectionp {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #062630;
+    line-height: 130%;
+    font-family: "Martian Mono", monospace;
+    font-weight: 600;
+
+}
+
+.left {
+    display: none;
+}
+
+.pricebox {
+    width: 343px;
+    height: 1128px;
+    margin-top: 64px;
+}
+
+.prices {
+    width: 343px;
+    height: 1116px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.price {
+    width: 340px;
+    height: 356px;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+h6 {
+    color: #062630;
+    font-size: 24px;
+    font-family: "Martian Mono", monospace;
+    font-weight: 700;
+
+}
+
+.dollar {
+
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+
+.line {
+    margin-bottom: 24px;
+}
+
+.pricebtn {
+    width: 292px;
+    height: 61px;
+    font-family: "Martian Mono", monospace;
+    font-weight: bold;
+
+}
+
+.line3 {
+    margin-top: 15px;
+}
+
+.lastbox {
+    margin-top: 64px;
+    width: 343px;
+    height: 370px;
+}
+
+.h5 {
+    font-size: 26px;
+    font-family: "Martian Mono", monospace;
+    line-height: 110%;
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+footer {
+    width: 100%;
+    height: 541px;
+    background-color: #062630;
+    padding-top: 48px;
+    border-radius: 8px 8px 0 0;
+}
+
+.footerbox1 {
+    width: 343px;
+    height: 326px;
+    text-align: center;
+}
+
+.footp {
+    color: white;
+    font-size: 34px;
+    line-height: 130%;
+    font-weight: 700;
+    width: 343px;
+    height: 132px;
+    font-family: "Martian Mono", monospace;
+
+}
+
+.footbtn {
+    width: 340px;
+    height: 64px;
+    background: local;
+    border-color: white;
+    color: white;
+    margin-top: 50px;
+
+}
+
+.dev1 {
+    text-align: left;
+}
+
+.lastline {
+    width: 343px;
+    height: 103px;
+    padding: 24px 32px 24px 32px;
+    margin-top: 64px;
+    text-align: center;
+}
+
+.year {
+    color: white;
+    font-family: "Martian Mono", monospace;
+    font-size: 14px;
+}
+
+.iconbox {
+    width: 64px;
+    height: 22px;
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}

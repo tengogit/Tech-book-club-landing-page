@@ -1,0 +1,136 @@
+@media(width>768px){
+.cont{
+    width: 768px;
+    height: 6551px;
+    padding-left: 32px;
+}
+header{
+    width: 704px;
+    height: 1345px;
+}
+.headerbox1{
+    width: 704px;
+    height: 510px;
+}
+h1{
+    width: 704px;
+    height: 222px;
+    font-size: 64px;
+}
+.p1{
+    width: 704px;
+    height: 84px;
+}
+button{
+    width: 380px;
+    height: 64px;
+}
+.headerbox1footer{
+    width: 420px;
+    height: 45px;
+}
+.stars{
+    width: 266px;
+    height: 45px;
+}
+.developers{
+    width: 296px;
+    height: 17px;
+}
+.headerbox2 , .boygirls1{
+    width: 704px;
+    height: 790px;
+}
+.headtxt{
+    width: 160px;
+}
+main{
+    width: 704px;
+    height: 1042px;
+}
+h2,h3,h4, h5{
+    font-size: 51px;
+}
+.mainimg{
+    width: 704px;
+    height: 654px;
+}
+article{
+    width: 704px;
+    height: 932px;
+    position: relative;
+}
+.articlebox1{
+    width: 704px;
+    height: 238px;
+}
+.p2{
+    font-weight: 200;
+}
+.script{
+    font-weight: bold;
+    border:none;
+}
+.articleimg{
+    width: 704px;
+    height: 654px;
+}
+.react{
+    display: inline;
+    position: absolute;
+    top: 750px;
+    left: 530px;
+}
+section{
+    width: 704px;
+    height: 806px;
+}
+.sectionbox{
+    width: 640px;
+    height: 468px;
+    margin-top: 48px;
+}
+.pricebox{
+    width: 704px;
+    height: 845px;
+}
+.prices{
+    width: 704px;
+    height: 740px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.btn3{
+    margin-top: 50px;
+}
+.lastbox{
+    width: 704px;
+    height: 384px;
+}
+.h5{
+    font-size: 36px;
+}
+footer{
+    width: 98%;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+.footerbox1{
+    width: auto;
+    height: auto;
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.headerbox1footer{
+    margin-top: 35px;
+}
+.footp{
+    font-size: 50px;
+    width: auto;
+    height: auto;
+}
+}
+

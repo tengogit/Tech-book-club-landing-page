@@ -1,0 +1,175 @@
+@media(width>1440px){
+    .cont{
+        width: 1440px;
+        height: 4384px;
+    }
+    header{
+        width: 1174px;
+        height: 606px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .headerbox1{
+        width: 570px;
+        height: 520px;
+        margin-top: 20px;
+    }
+    h1{
+        width: 570px;
+        height: 222px;
+    }
+    .p1{
+        width: 570px;
+        height: 54px;
+    }
+    .headerbox1footer{
+        margin-top: 45px;
+    }
+    button{
+        margin-top: 65px;
+    }
+    .headerbox2, .boygirls1{
+        width: 540px;
+        height: 606px;
+        margin: 0;
+    }
+    main{
+        width: 1170px;
+        height: 520px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 80px;
+    }
+    .mainimg{
+        width: 560px;
+        height: 520px;
+       
+    }
+    .mainbox1{
+        width: 530px;
+        height: 432px;
+        margin-top: 44px;
+        order: 1;
+    }
+    .mainbox2{
+        margin: 0;
+    }
+    article{
+        width: 1170px;
+        height: 520px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 80px;
+    }
+    .articlebox1{
+        width: 530px;
+        height: 266px;
+        margin-top: 127px;
+    }
+    .articleimg{
+        width: 560px;
+        height: 520px;
+    }
+    h2,h3,h4, h5{
+    font-size: 50px;
+}
+.react{
+    top: 350px;
+    left:  540px;
+}
+section{
+    width: 1170px;
+    height: 454px;
+    padding-left: 60px;
+}
+.sectionbox{
+    width: 1050px;
+    height: 110px;
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 64px;
+}
+.sectionline{
+    width: 226px;
+    height: 110px;
+}
+.h4{
+    width: 512px;
+    height: 130px;
+    margin-left: 280px;
+    text-align: center;
+}
+.left{
+    display: inline;
+    position: relative;
+    top: -90px;
+    left: 155px;
+}
+.pricebox{
+    width: 970px;
+    height: 519px;
+    margin-left:150px;
+}
+.prices{
+    width: 970px;
+    height: 390px;
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.price{
+    width: 286px;
+    height: 358px;
+}
+.pricebtn{
+    width: 238px;
+    height: 63px;
+}
+.price2{
+    width: 350px;
+    height: 390px;
+}
+.btn1{
+width: 302px;
+height: 63px;
+}
+.line{
+    width: 238px;
+}
+.btn3{
+    margin-top: 125px;
+}
+.member{
+margin-left: 150px;
+}
+.lastbox{
+    width: 970px;
+    height: 296px;
+    margin-left: 150px;
+    text-align: center;
+}
+footer{
+    width: 1440px;
+    height: 521px;
+}
+.footerbox1{
+    width: 753px;
+    height: 307px;
+}
+.lastline{
+    margin-top: 62px;
+}
+}
+button:active{
+    border: double;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+.icon:hover{
+    cursor: pointer;
+    transform: scale(2.5);
+  
+}
