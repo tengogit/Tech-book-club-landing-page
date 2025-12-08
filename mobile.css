@@ -9,7 +9,8 @@
 
 body {
     user-select: none;
-    height: 100vh;
+    width:100%;
+    min-height: 100vh;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -19,11 +20,14 @@ body {
 }
 
 .cont {
-    width: 375px;
+    width: 100%;
+    max-width:375px;
     height: 5750px;
     padding: 32px 16px 0px 16px;
 }
-
+div{
+    max-width:100%;
+}
 .headline {
     width: 193px;
     height: 36px;
