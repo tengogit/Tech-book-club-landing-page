@@ -20,14 +20,11 @@ body {
 }
 
 .cont {
-    width: 100%;
-    max-width:375px;
+    width: 375px;
     height: 5750px;
     padding: 32px 16px 0px 16px;
 }
-div{
-    max-width:100%;
-}
+
 .headline {
     width: 193px;
     height: 36px;
