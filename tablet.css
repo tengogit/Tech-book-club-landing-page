@@ -1,7 +1,6 @@
-@media(width>768px){
+@media(min-width:768px){
 .cont{
     width: 768px;
-    height: 6551px;
     padding-left: 32px;
 }
 header{

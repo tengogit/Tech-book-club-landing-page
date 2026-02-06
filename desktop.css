@@ -1,7 +1,7 @@
-@media(width>1440px){
+@media(min-width:1440px){
     .cont{
         width: 1440px;
-        height: 4384px;
+   
     }
     header{
         width: 1174px;
@@ -116,7 +116,8 @@ section{
     height: 390px;
     margin-top: 64px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns:repeat(3,1fr);
+
 }
 .price{
     width: 286px;
